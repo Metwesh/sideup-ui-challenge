@@ -1,0 +1,95 @@
+.sidebar {
+  grid-template-areas: "side-bar";
+  grid-row: 1/4;
+  background-color: #fdfef9;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.1);
+  width: 14.3125rem;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  cursor: pointer;
+  width: 7.25rem;
+  height: 2.625rem;
+  padding-top: 2.625rem;
+  padding-right: 3.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 3.5625rem;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+}
+.nav-link-row {
+  display: flex;
+  cursor: pointer;
+  padding-top: 1.0625rem;
+  padding-bottom: 1.125rem;
+}
+.nav-link-row:last-child {
+  padding-top: 2.5rem;
+}
+
+.nav-link-row:hover > .nav-link-logo {
+  fill: #cb3e90;
+}
+
+.nav-link-row:hover > .nav-link-text {
+  color: #cb3e90;
+}
+
+.nav-link-row:hover > .nav-link-hover-button {
+  background-color: #cb3e90;
+}
+
+.nav-link-hover-button {
+  justify-self: start;
+  height: 1.1875rem;
+  width: 0.25rem;
+  margin-right: calc(2.625rem - 4px);
+  background-color: transparent;
+}
+
+.nav-link-text {
+  color: #333737;
+  margin-left: 0.3125rem;
+}
+
+.nav-link-logo {
+  fill: #333737;
+}
+
+/* Desktop Two */
+@media screen and (max-width: 1200px), screen and (max-height: 700px) {
+  .sidebar {
+    width: 11.5625rem;
+  }
+  .logo {
+    padding-right: 2.1875rem;
+    padding-left: 2.125rem;
+  }
+  .nav-link-hover-button {
+    margin-right: calc(1.25rem - 4px);
+  }
+}
+/* Desktop Three */
+@media screen and (max-width: 992px), screen and (max-height: 700px) {
+  .sidebar {
+    width: 10.25rem;
+  }
+  .logo {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  .nav-link-hover-button {
+    margin-right: calc(1.25rem - 4px);
+  }
+  .nav-link-text {
+    font-size: 12px;
+  }
+}
