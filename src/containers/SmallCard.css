@@ -1,0 +1,16 @@
+.mini-card {
+  padding: 0.75rem 0.55rem;
+}
+
+.mini-card-title {
+  margin-left: 0.3125rem;
+}
+
+/* Desktop two */
+@media screen and (max-width: 1200px), screen and (max-height: 700px) {
+  .mini-card-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

@@ -1,0 +1,66 @@
+.second-bar {
+  grid-template-areas: "second-bar";
+  grid-column: 2/5;
+  margin-inline: 2.5rem;
+}
+
+.profile-card {
+  padding: 1.25rem 16.4375rem 1.25rem 1.25rem;
+}
+
+.profile-icon {
+  max-width: 2.5rem;
+  max-height: 2.5rem;
+}
+
+.header-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 1.25rem;
+}
+
+.single-crate {
+  max-width: 24px;
+  max-height: 27px;
+}
+.multi-crate {
+  max-width: 24px;
+  max-height: 22px;
+}
+
+.dropdown-card {
+  padding: 1.625rem 1.25rem 1.6875rem;
+}
+
+.dropdown-card > .button-text {
+  margin-right: 5.0625rem;
+}
+
+.centered-card {
+  padding: 1.8125rem 4.6875rem 1.8125rem 4.75rem;
+}
+
+.button-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 0.625rem;
+}
+
+.productivity-icons {
+  margin-top: 1.25rem;
+  gap: 3.125rem;
+}
+
+.sprites {
+  width: 88px;
+  height: 81px;
+}
+
+/* Mobile */
+@media screen and (max-width: 375px) {
+  .second-bar {
+    display: block;
+  }
+}

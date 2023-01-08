@@ -1,0 +1,33 @@
+
+
+.text-with-colored-box-container:first-of-type {
+  margin-right: 0.3125rem;
+}
+
+.small-legend-box {
+  width: 5px;
+  height: 5px;
+  left: 0px;
+  top: 2px;
+  border-radius: 1px;
+}
+.small-legend-box.green {
+  background: #17a21a;
+}
+.small-legend-box.yellow {
+  background: #edd329;
+}
+
+.pie-chart-legend-text {
+  margin-left: 0.3125rem;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+}
+
+.medium-padding-right {
+  padding-right: 0.5625rem;
+}
+.medium-padding-left {
+  padding-left: 0.5625rem;
+}

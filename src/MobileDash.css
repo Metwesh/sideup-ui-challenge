@@ -1,0 +1,184 @@
+.mobile-nav {
+  grid-area: mob-nav;
+  height: calc(5.75rem - 1.875rem);
+  background: #ffffff;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.15);
+  padding: 1.1875rem;
+}
+
+.avatar {
+  padding: 6px;
+  border-radius: 50%;
+  border: 1px solid #4278b8;
+  box-shadow: 2px 3px 10px rgba(242, 90, 41, 0.25);
+}
+
+.sideup-logo-sm {
+  width: auto;
+  height: 50%;
+}
+
+.second-row {
+  grid-area: second-row;
+}
+
+.mobile-profile-card-container {
+  padding: 0.625rem;
+  margin: 1.25rem 1rem 1rem;
+}
+.header-text.mobile {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 24px;
+}
+
+.mobile-productivity-icons {
+  gap: 3.125rem;
+}
+
+.mobile-sprites {
+  width: 48px;
+  height: 48.57px;
+}
+
+.third-row {
+  grid-area: third-row;
+  margin: 1rem;
+}
+.mobile-legend-container {
+  margin-top: 0.625rem;
+  margin-right: 0.625rem;
+  margin-left: 0.625rem;
+}
+
+.colored-text-box {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 9px;
+  color: #ffffff;
+  width: 58px;
+  height: 15px;
+  text-align: center;
+  border-radius: 2px;
+  margin-bottom: 0.1875rem;
+}
+.colored-text-box.red {
+  background-color: #ce0c14;
+}
+.colored-text-box.green {
+  background-color: #17a21a;
+}
+.colored-text-box.yellow {
+  background-color: #edd329;
+}
+
+.mobile-chart-margin {
+  margin-top: 0.625rem;
+}
+
+.long-card.card.mobile {
+  grid-area: mob-table;
+  margin: 1rem;
+  max-height: 16.25rem;
+}
+
+.header-container.mobile {
+  padding: 0.625rem;
+}
+
+.total-attempts-value.mobile {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.table-text.mobile {
+  font-size: 16px;
+  line-height: 18px;
+}
+.table-number.mobile {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.small-card1.mobile {
+  grid-area: mob-card1;
+}
+.small-card2.mobile {
+  grid-area: mob-card2;
+}
+.small-card3.mobile {
+  grid-area: mob-card3;
+}
+.small-card4.mobile {
+  grid-area: mob-card4;
+}
+.small-card5.mobile {
+  grid-area: mob-card5;
+}
+.small-card6.mobile {
+  grid-area: mob-card6;
+}
+.small-card1.mobile,
+.small-card3.mobile,
+.small-card5.mobile {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.small-card2.mobile,
+.small-card4.mobile,
+.small-card6.mobile {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.mobile-custom-margin-right {
+  margin-right: 1rem;
+}
+
+.mobile-custom-margin-top {
+  margin-top: 1rem;
+}
+
+.small-card-blue-box.mobile {
+  margin-top: 1rem;
+  justify-content: center;
+  width: auto;
+}
+.number-value.mobile {
+  left: 21px;
+}
+
+.small-card-money.mobile {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.small-card-arrow.mobile {
+  margin-right: 0.625rem;
+}
+
+.pop-out-button-main {
+  position: fixed;
+  top: 700px;
+  right: -120px;
+}
+.pop-out-button2,
+.pop-out-button3,
+.pop-out-button4 {
+  position: relative;
+  z-index: 9999999999999999;
+}
+.pop-out-button2 {
+  top: 0;
+  right: 90px;
+}
+.pop-out-button3 {
+  top: -40px;
+  right: 120px;
+}
+.pop-out-button4 {
+  top: -40px;
+  right: 130px;
+}

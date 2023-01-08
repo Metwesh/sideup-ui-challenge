@@ -1,0 +1,18 @@
+.radial-chart-legend {
+  position: absolute;
+  top: 70px;
+  left: 48px;
+}
+
+.flip-arrow {
+  transform: scaleX(-1) rotate(180deg);
+}
+
+.radial-chart-legend > .small-card-number::after {
+  top: 28px;
+  left: 42px;
+}
+
+.small-card-arrow {
+  margin-left: 5px;
+}

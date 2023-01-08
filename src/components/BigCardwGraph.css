@@ -1,0 +1,223 @@
+.big-card {
+  display: grid;
+  grid-template-areas:
+    "first-row first-row"
+    "second-row lg-graph"
+    "third-row lg-graph";
+  grid-template-rows: 4rem auto;
+  grid-template-columns: 1fr 2fr;
+}
+
+.card-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333737;
+  margin-left: 0.3125rem;
+}
+
+.mini-card1 {
+  grid-area: second-row;
+  background: rgba(66, 120, 184, 0.05);
+  border-left: 2px solid #4278b8;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  margin-bottom: 1.25rem;
+  margin-left: 1.25rem;
+  padding-top: 0.625rem;
+  padding-left: 0.625rem;
+}
+
+.mini-card2 {
+  grid-area: third-row;
+  background: rgba(66, 120, 184, 0.05);
+  border-left: 2px solid #4278b8;
+  box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  margin-bottom: 1.25rem;
+  margin-left: 1.25rem;
+  padding-top: 0.625rem;
+  padding-left: 0.625rem;
+}
+
+.mini-card-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 0.3125rem;
+}
+
+.mini-card-money {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 0.625rem;
+  margin-bottom: 0.3125rem;
+}
+
+.percentage-delta {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+.green-text {
+  color: #17a21a;
+}
+
+.red-text {
+  color: #ce0c14;
+}
+.mini-bar-graph {
+  margin-inline: 0.3125rem;
+}
+
+.lg-graph {
+  grid-area: lg-graph;
+  margin-right: 1.75rem;
+}
+
+.title-money-wrapper {
+  grid-area: first-row;
+  justify-content: space-between;
+}
+
+.title-logo-container1 {
+  margin-top: 0.25rem;
+  margin-left: 1.25rem;
+}
+.money-value-container {
+  margin-top: 1.5rem;
+  margin-right: 1.75rem;
+}
+
+.money-blue {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  width: 7.75rem;
+  height: 2.25rem;
+  color: #f1f1ff;
+  background: #4278b8;
+  border-radius: 4px;
+}
+
+.mini-card-subtle-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 1200px), screen and (max-height: 700px) {
+  .card-title {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .money-blue {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    width: 109px;
+    height: 30px;
+  }
+  .mini-card-money {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .percentage-delta {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .mini-bar-graph {
+    width: 29px;
+    height: 14px;
+  }
+  .mini-card-subtle-text {
+    font-size: 10px;
+    line-height: 11px;
+  }
+}
+/* Desktop two */
+@media screen and (max-width: 992px) {
+  .card-title {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .money-blue {
+    width: 95px;
+    height: 26px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .mini-card-title,
+  .mini-card-money {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .percentage-delta {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .mini-bar-graph {
+    width: 29px;
+    height: 14px;
+  }
+  .mini-card-subtle-text {
+    font-size: 8px;
+    line-height: 9px;
+  }
+}
+/* Desktop three */
+@media screen and (max-width: 992px) {
+  .big-card {
+    grid-template-rows: 3rem 5rem auto;
+    grid-template-columns: 9rem 2fr;
+  }
+  .mini-card-title,
+  .mini-card-money {
+    font-size: 12px;
+    line-height: 10px;
+    margin-top: 0.3125rem;
+    margin-bottom: 0.3125rem;
+  }
+  .mini-card1 {
+    margin-bottom: 0.3125rem;
+    margin-left: 1.25rem;
+    padding-top: 0.125rem;
+    padding-bottom: 0.3125rem;
+    padding-left: 0.3125rem;
+  }
+  .mini-card2 {
+    margin-left: 1.25rem;
+    padding-top: 0.125rem;
+    padding-left: 0.3125rem;
+  }
+}
+/* Mobile */
+@media screen and (max-width: 375px) {
+  .title-logo-container1 {
+    margin: 0;
+    margin-top: 0.625rem;
+    margin-left: 0.625rem;
+  }
+  .money-value-container {
+    margin: 0;
+    margin-top: 0.625rem;
+    margin-right: 0.625rem;
+  }
+  .mini-card1 {
+    margin: 0.625rem;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0.875rem;
+    background-color: #ffffff;
+    border: 1px solid #4278b8;
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 123px;
+  }
+}
