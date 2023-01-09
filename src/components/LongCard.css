@@ -70,7 +70,7 @@
   text-align: center;
 }
 /* Desktop two */
-@media screen and (max-width: 1200px), screen and (max-height: 700px) {
+@media screen and (max-width: 1200px){
   .table-text {
     font-size: 14px;
     line-height: 16px;

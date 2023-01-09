@@ -139,7 +139,7 @@
 }
 
 /* Desktop two */
-@media screen and (max-width: 1200px), screen and (max-height: 700px) {
+@media screen and (max-width: 1200px) {
   .main-dash {
     padding-inline: 1.25rem;
     gap: 0.625rem;

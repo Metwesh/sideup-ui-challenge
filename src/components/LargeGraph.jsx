@@ -10,39 +10,6 @@ import {
 } from "recharts";
 import formatter from "../utilities/numberFormatter";
 export default function LargeGraph() {
-  // useEffect(() => {
-  //   if (window.matchMedia("(min-width: 1201px)").matches) {
-  //     // Desktop one
-  //     graphWidth = 420;
-  //     console.log("d1");
-  //   } else if (
-  //     window.matchMedia("(max-width: 1201px)").matches &&
-  //     window.matchMedia("(min-width: 993px")
-  //   ) {
-  //     if (
-  //       window.matchMedia("(max-width: 993px)").matches &&
-  //       window.matchMedia("(min-width: 376px")
-  //     ) {
-  //       // Desktop three
-  //       graphWidth = 100;
-  //       graphHeight = "10%";
-  //       console.log("d3");
-  //     } else if (
-  //       window.matchMedia("(max-width: 375px") &&
-  //       !window.matchMedia("(max-height: 1000px)")
-  //     ) {
-  //       // Mobile
-  //       console.log("d4");
-  //       graphWidth = 420;
-  //       graphHeight = "85%";
-  //     } else {
-  //       console.log("d2");
-  //       // Desktop two
-  //       graphWidth = 380;
-  //       graphHeight = "95%";
-  //     }
-  //   }
-  // }, []);
   const data = [
     {
       "Net Sales": 39000,
@@ -76,7 +43,7 @@ export default function LargeGraph() {
   ];
   return (
     <div className="lg-graph">
-      <ResponsiveContainer>
+      <ResponsiveContainer aspect={1.5} width="99%">
         <LineChart data={data}>
           <CartesianGrid strokeDasharray="4 4" />
           <XAxis dataKey="name" />

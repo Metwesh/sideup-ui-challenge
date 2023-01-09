@@ -20,8 +20,8 @@ export default function RadialChart() {
     <>
       <div id="hide-for-desktop-2">
         <RadialBarChart
-          width={69}
-          height={69}
+          width={95}
+          height={95}
           innerRadius="100%"
           outerRadius="70%"
           data={data}

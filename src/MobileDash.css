@@ -161,24 +161,58 @@
 
 .pop-out-button-main {
   position: fixed;
-  top: 700px;
+  top: 680px;
   right: -120px;
 }
+
+
+.pop-out-button-main > .p-relative > img {
+  transform: scale(1.5);
+}
+.pop-out-button1,
+.pop-out-button2,
+.pop-out-button3,
+.pop-out-button4 {
+  transition: all 300ms ease-in-out;
+}
+
 .pop-out-button2,
 .pop-out-button3,
 .pop-out-button4 {
   position: relative;
-  z-index: 9999999999999999;
+}
+.pop-out-button1 {
+  z-index: 1;
+  transform: rotate(0deg);
+
 }
 .pop-out-button2 {
-  top: 0;
-  right: 90px;
+  z-index: -1;
+  top: 17px;
+  right: 40px; 
 }
 .pop-out-button3 {
-  top: -40px;
-  right: 120px;
+  z-index: -1;
+  top: 16px;
+  right: 100px;
 }
 .pop-out-button4 {
-  top: -40px;
+  z-index: -1;
+  top: 21px;
+  right: 145px;
+}
+.pop-out-button1.active {
+  transform: rotate(360deg);
+}
+.pop-out-button2.active {
+  top: 2px;
+  right: 128px;  
+}
+.pop-out-button3.active {
+  top: -50px;
+  right: 140px;
+}
+.pop-out-button4.active {
+  top: -71px;
   right: 130px;
 }

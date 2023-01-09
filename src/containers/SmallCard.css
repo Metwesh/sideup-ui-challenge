@@ -7,7 +7,7 @@
 }
 
 /* Desktop two */
-@media screen and (max-width: 1200px), screen and (max-height: 700px) {
+@media screen and (max-width: 1200px){
   .mini-card-title {
     font-weight: 400;
     font-size: 14px;

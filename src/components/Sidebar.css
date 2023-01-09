@@ -65,7 +65,7 @@
 }
 
 /* Desktop Two */
-@media screen and (max-width: 1200px), screen and (max-height: 700px) {
+@media screen and (max-width: 1200px){
   .sidebar {
     max-width: 11.5625rem;
   }
