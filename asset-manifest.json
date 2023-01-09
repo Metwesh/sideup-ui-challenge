@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sideup-ui-challenge/static/css/main.c8aa3bd2.css",
-    "main.js": "/sideup-ui-challenge/static/js/main.c0e727fd.js",
+    "main.css": "/sideup-ui-challenge/static/css/main.dbe0ae84.css",
+    "main.js": "/sideup-ui-challenge/static/js/main.cb92b85a.js",
     "static/media/US-flag.jpeg": "/sideup-ui-challenge/static/media/US-flag.5919cee38f05d5e91716.jpeg",
     "static/media/Task-Sheet-Blue-XSmall.svg": "/sideup-ui-challenge/static/media/Task-Sheet-Blue-XSmall.39c5aa1cad06ccf19af4604617a0ad54.svg",
     "static/media/Task-Sheet-Blue-Small.svg": "/sideup-ui-challenge/static/media/Task-Sheet-Blue-Small.ced2485429b9a1a99f24eb7fabaac165.svg",
@@ -34,11 +34,11 @@
     "index.html": "/sideup-ui-challenge/index.html",
     "static/media/Sideup-Logo.webp": "/sideup-ui-challenge/static/media/Sideup-Logo.034d835f32ada20cf2e8.webp",
     "static/media/Avatar.svg": "/sideup-ui-challenge/static/media/Avatar.da83b61b22ac38a5893285ec8901fbca.svg",
-    "main.c8aa3bd2.css.map": "/sideup-ui-challenge/static/css/main.c8aa3bd2.css.map",
-    "main.c0e727fd.js.map": "/sideup-ui-challenge/static/js/main.c0e727fd.js.map"
+    "main.dbe0ae84.css.map": "/sideup-ui-challenge/static/css/main.dbe0ae84.css.map",
+    "main.cb92b85a.js.map": "/sideup-ui-challenge/static/js/main.cb92b85a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8aa3bd2.css",
-    "static/js/main.c0e727fd.js"
+    "static/css/main.dbe0ae84.css",
+    "static/js/main.cb92b85a.js"
   ]
 }
